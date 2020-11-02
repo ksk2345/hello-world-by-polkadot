@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/hello-world-by-polkadot/static/js/main.b1ef2d94.chunk.js",
+    "main.js.map": "/hello-world-by-polkadot/static/js/main.b1ef2d94.chunk.js.map",
+    "runtime-main.js": "/hello-world-by-polkadot/static/js/runtime-main.7483cd2f.js",
+    "runtime-main.js.map": "/hello-world-by-polkadot/static/js/runtime-main.7483cd2f.js.map",
+    "static/css/2.e9dd8435.chunk.css": "/hello-world-by-polkadot/static/css/2.e9dd8435.chunk.css",
+    "static/js/2.1ae5cb32.chunk.js": "/hello-world-by-polkadot/static/js/2.1ae5cb32.chunk.js",
+    "static/js/2.1ae5cb32.chunk.js.map": "/hello-world-by-polkadot/static/js/2.1ae5cb32.chunk.js.map",
+    "index.html": "/hello-world-by-polkadot/index.html",
+    "precache-manifest.8e0ec235a7b06ad4d19785989d02bd20.js": "/hello-world-by-polkadot/precache-manifest.8e0ec235a7b06ad4d19785989d02bd20.js",
+    "service-worker.js": "/hello-world-by-polkadot/service-worker.js",
+    "static/css/2.e9dd8435.chunk.css.map": "/hello-world-by-polkadot/static/css/2.e9dd8435.chunk.css.map",
+    "static/js/2.1ae5cb32.chunk.js.LICENSE.txt": "/hello-world-by-polkadot/static/js/2.1ae5cb32.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/hello-world-by-polkadot/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7483cd2f.js",
+    "static/css/2.e9dd8435.chunk.css",
+    "static/js/2.1ae5cb32.chunk.js",
+    "static/js/main.b1ef2d94.chunk.js"
+  ]
+}
