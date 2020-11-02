@@ -6,21 +6,16 @@ import { SubstrateContextProvider, useSubstrate } from './substrate-lib';
 import { DeveloperConsole } from './substrate-lib/components';
 
 import AccountSelector from './AccountSelector';
-import Balances from './Balances';
 import BlockNumber from './BlockNumber';
 import BlockInfo from './BlockInfo';
-import Events from './Events';
-import Interactor from './Interactor';
 import Metadata from './Metadata';
 import NodeInfo from './NodeInfo';
-import TemplateModule from './TemplateModule';
-import Transfer from './Transfer';
-import Upgrade from './Upgrade';
 
 function Main () {
   const [accountAddress, setAccountAddress] = useState(null);
   const [tglVal, toggleVal] = useState(0);
   const { apiState, keyring, keyringState, apiError } = useSubstrate();
+  // eslint-disable-next-line
   const accountPair =
     accountAddress &&
     keyringState === 'READY' &&
@@ -77,26 +72,12 @@ function Main () {
             </Grid.Column>
           </Grid.Row>
           <Grid.Row stretched>
-            <Grid.Column width={4}>
-              <Button color='teal' onClick={refreshBlockInfo}>Click here to get latest Block Info</Button>
+            <Grid.Column width={6}>
+              <Button color='teal' onClick={refreshBlockInfo}>Click here to get latest Block Info on Polkadot</Button>
             </Grid.Column>
           </Grid.Row>
           <Grid.Row stretched>
             <BlockInfo key={tglVal}/>
-          </Grid.Row>
-          <Grid.Row stretched>
-            <Balances />
-          </Grid.Row>
-          <Grid.Row>
-            <Transfer accountPair={accountPair} />
-            <Upgrade accountPair={accountPair} />
-          </Grid.Row>
-          <Grid.Row>
-            <Interactor accountPair={accountPair} />
-            <Events />
-          </Grid.Row>
-          <Grid.Row>
-            <TemplateModule accountPair={accountPair} />
           </Grid.Row>
         </Grid>
       </Container>
