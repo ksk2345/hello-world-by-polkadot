@@ -1,5 +1,14 @@
 {
   "APP_NAME": "substrate-front-end-tutorial",
   "DEVELOPMENT_KEYRING": true,
-  "RPC": {}
+  "RPC": {},
+  "CUSTOM_TYPES": {
+    "Address": "AccountId",
+    "LookupSource": "AccountId",
+    "Ebook": {
+      "ebook_value": "Hash",
+      "ebook_title": "Vec<u8>",
+      "ebook_id": "u32"
+    }
+  }
 }
