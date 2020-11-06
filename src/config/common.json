@@ -8,7 +8,7 @@
     "Ebook": {
       "ebook_id": "Hash",
       "ebook_title": "Vec<u8>",
-      "ebook_hash": "u32"
+      "ebook_value": "u32"
     }
   }
 }
