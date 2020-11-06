@@ -6,9 +6,9 @@
     "Address": "AccountId",
     "LookupSource": "AccountId",
     "Ebook": {
-      "ebook_value": "Hash",
+      "ebook_id": "Hash",
       "ebook_title": "Vec<u8>",
-      "ebook_id": "u32"
+      "ebook_hash": "u32"
     }
   }
 }
