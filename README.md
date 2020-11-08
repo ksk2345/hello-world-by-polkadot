@@ -6,7 +6,7 @@ Contract Address : ZHTkFEe3YoFtfTQdXWNLwbGdkf8vgeEakUekveyhfZWdZkF
 Code Hash : 0x41a4e83211d362f7f5d8c00e098735a310bb546832a0633672e58805ed64d0c3
 ```
 
-Contract solidity, wasm and json files also included in this repo for reference.
+Contract solidity, wasm and json files also included in this [repo](https://github.com/ksk2345/hello-world-by-polkadot/tree/plasm-flipper) for reference. 
 Screenshot of deployed instance on Dusty given below.
 
 
