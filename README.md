@@ -13,7 +13,7 @@ Pre-requisites and Development Environmet Setup instructions can be found at the
 ```bash
 # Clone only the branch (substrate-multi-currency) from the repository into a local directory named 'node-template'
 git clone --single-branch --branch   substrate-multi-currency https://github.com/ksk2345/hello-world-by-polkadot.git node-template
-cd ./node
+cd ./node-template
 cargo build --release
 ```
 
